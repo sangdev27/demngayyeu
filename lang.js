@@ -1,5 +1,5 @@
 let currentPin = '';
-        const correctPin = '2222';
+        const correctPin = '0418';
         const maxLength = 4;
         const pinDots = document.querySelectorAll('.pin-dot');
         const container = document.querySelector('.container');
@@ -66,4 +66,5 @@ let currentPin = '';
                 event.preventDefault();
             }
             lastTouchEnd = now;
+
         }, false);
